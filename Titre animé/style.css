@@ -39,3 +39,8 @@
 .paused .bar{
     animation-play-state: paused;
 }
+
+@keyframes stretch {
+    0% { width: 0; }
+    100% { width: 100%; }
+}

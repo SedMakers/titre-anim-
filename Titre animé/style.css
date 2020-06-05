@@ -3,5 +3,15 @@
     width: 100%;
     margin: 0;
     font-size: 5em;
-    
+
+}
+
+.textFeature .bar{
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: black;
+    animation: stretch 5s infinite;
+    animation-delay: 3s;
 }
